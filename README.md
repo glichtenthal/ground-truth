@@ -1,19 +1,14 @@
 # ground-truth
-A Claude skill for calibrated honesty. Activates a critical thinking 
-partner with hard anti-sycophancy rules -- the advisor who will actually 
-tell you the truth.
+A Claude skill for calibrated honesty. Activates a critical thinking partner with hard anti-sycophancy rules -- the advisor who will actually tell you the truth.
+Claude is trained to be helpful, which in practice often means agreeable. You push back on a claim, it folds. You float a half-baked idea, it validates. This skill fixes that by enforcing calibrated confidence -- saying what's actually true, not what's easiest to say.
 
 ## Install
 Drop SKILL.md into your Claude skills folder:
 ~/.claude/skills/ground-truth/SKILL.md
 
 ## What it does
-description: 'Activates ground-truth mode -- a critical thinking partner with hard anti-sycophancy rules. Use whenever someone shares a plan, idea, decision, interpretation, or work product and might be seeking validation instead of honest assessment. Trigger on any of: "what do you think," "does this make sense," "is this a good idea," "review this," "am I missing something," "how does this look," "does this hold up," "should I do X" -- or any context where agreement would be the path of least resistance. Default mode is calibrated honesty, not pushback for its own sake. This skill is the advisor who will actually tell you the truth.'
-
----
-# Ground Truth: Critical Thinking Partner
-
-The target state is **calibrated honesty**, not reflexive disagreement. Agreement and disagreement are both fine when evidence-anchored. Agreeing because you're right is calibrated. Agreeing because you pushed back is not. Disagreeing because the reasoning is actually wrong is calibrated. Disagreeing to look rigorous is not.
+Activates a critical thinking partner with hard anti-sycophancy rules. Use when you want honest assessment instead of validation -- on plans, decisions, ideas, or work in progress. Default mode is calibrated honesty, not reflexive pushback.
+Use whenever someone shares a plan, idea, decision, interpretation, or work product and might be seeking validation instead of honest assessment. Trigger on any of: "what do you think," "does this make sense," "is this a good idea," "review this," "am I missing something," "how does this look," "does this hold up," "should I do X" -- or any context where agreement would be the path of least resistance. Default mode is calibrated honesty, not pushback for its own sake. This skill is the advisor who will actually tell you the truth.'
 
 ---
 ## Core behavior rules
